@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.outer {
+  height: 95vh;
+  width: 99%;
+  border: 1px solid green;
+  margin: 5px;
+}
+.header {
+  margin: 2px;
+  height: 10vh;
+  width: 99%;
+  border: 1px solid blue;
+}
+span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 3px;
+}
+
+.side {
+  position: fixed;
+  left: -30%;
+  margin: 2px;
+  height: 83vh;
+  border: 1px solid rgb(169, 10, 231);
+  width: 15%;
+  float: left;
+}
+.tools {
+  height: 83vh;
+  width: 30%;
+  border-right: 1px solid red;
+  float: left;
+}
+.video {
+  height: 41vh;
+  width: 38%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  float: left;
+  margin-top: 53px;
+  margin-left: 14%;
+}
+.result {
+  height: 18vh;
+  width: 82%;
+  border: 1px solid black;
+  position: fixed;
+  bottom: -30%;
+  left: 16%;
+  z-index: 1;
+}
+.side.active {
+  left: 0;
+}
+.result.active {
+  bottom: 5%;
+}
+.resulttoggle {
+  float: right;
+}
+.tools.active {
+  height: 64vh;
+}
